@@ -11,16 +11,16 @@ eureka:
             
 spring:
   datasource:
-    platform: postgres
     url: jdbc:postgresql://localhost:5432/school_db
+    platform: postgres
     username: postgres
     password: 1234
     driverClassName: org.postgresql.Driver
-    validationQuery:  SELECT 1
   jpa:
     properties:
-       hibernate:
-         dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
     database: POSTGRESQL
-    show-sql: true
-    hibernate.ddl-auto: update 
+    hibernate:
+      ddl-auto: update
+    show-sql: true 
