@@ -13,7 +13,6 @@ spring:
     platform: postgres
     username: postgres
     password: 1234
-    driverClassName: org.postgresql.Driver
   jpa:
     properties:
       hibernate:
