@@ -1,14 +1,12 @@
 server:
-    port: 8083
-    error:
-        include-message: always
-    
+  port: 8083
+  error:
+    include-message: always
 eureka:
-    instance:
-        preferIpAddress: true
-        serviceUrl:
-            defaultZone: http://localhost:8761/eureka/
-            
+  instance:
+    preferIpAddress: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/school_db
@@ -23,4 +21,4 @@ spring:
     database: POSTGRESQL
     hibernate:
       ddl-auto: update
-    show-sql: true 
+    show-sql: true
