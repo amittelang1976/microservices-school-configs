@@ -9,7 +9,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/school_db
+    url: jdbc:postgresql://172.17.0.2:5432/school_db
     platform: postgres
     username: postgres
     password: 1234
