@@ -12,7 +12,7 @@ eureka:
 spring:
   datasource:
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/school_db
+    url: jdbc:postgresql://172.17.0.2:5432/school_db
     username: postgres
     password: 1234
     driverClassName: org.postgresql.Driver
